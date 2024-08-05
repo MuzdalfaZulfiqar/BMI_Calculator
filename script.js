@@ -30,5 +30,21 @@
                 text.value = Math.round((bmi + Number.EPSILON) * 100) / 100;
             }
 
+
+
+            let textVal = Number(text.value);
+            if(textVal < 18.5){
+                alert("Underweight")
+            }
+            else if(textVal>19 && textVal < 24.9){
+                alert("Underweight")
+            }
+            else if(textVal>25 && textVal < 29.9){
+                alert("Underweight")
+            }
+            else{
+                alert("Underweight")
+            }
+
             
         })
